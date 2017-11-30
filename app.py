@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/", methods=['GET', 'POST'])
 def prg9serverFunction():
 	if request.method == "GET":
-		return render_template("Prg9.html")
+		return render_template("index.html")
 
 	if request.method == "POST":
 
